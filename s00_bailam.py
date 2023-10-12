@@ -39,9 +39,9 @@ def hi(name,gender):
       return f'Hi {name}!'
   return 'todo'
 
-hi('Mom', 'f')
-hi('Dad', 'm')
-hi('TOYA', None)
-hi(None, None)
+print(hi('Mom', 'f'))
+print(hi('Dad', 'm'))
+print(hi('TOYA', None))
+print(hi(None, None))
 #endregion bailam
 
