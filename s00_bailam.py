@@ -28,6 +28,20 @@ hi(None, None)        | Hi!
 
 #region bailam
 def hi(name,gender):
+  if gender == 'f':
+    return f'Hi Ms {name}!'
+  if gender == 'm':
+    return f'Hi Mr {name}!'
+  if gender == None:
+    if name == None:
+      return f'Hi!'
+    else:
+      return f'Hi {name}!'
   return 'todo'
+
+hi('Mom', 'f')
+hi('Dad', 'm')
+hi('TOYA', None)
+hi(None, None)
 #endregion bailam
 
